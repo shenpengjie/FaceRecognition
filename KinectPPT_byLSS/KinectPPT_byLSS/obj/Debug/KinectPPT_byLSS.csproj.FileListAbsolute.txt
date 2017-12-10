@@ -1,0 +1,49 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\KinectPPT_byLSS\KinectPPT_byLSS\bin\Debug\KinectPPT_byLSS.exe.config
+c:\users\lenovo\documents\visual studio 2015\Projects\KinectPPT_byLSS\KinectPPT_byLSS\bin\Debug\KinectPPT_byLSS.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\KinectPPT_byLSS\KinectPPT_byLSS\bin\Debug\KinectPPT_byLSS.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\KinectPPT_byLSS\KinectPPT_byLSS\bin\Debug\Microsoft.Kinect.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\KinectPPT_byLSS\KinectPPT_byLSS\bin\Debug\Microsoft.Kinect.xml
+c:\users\lenovo\documents\visual studio 2015\Projects\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\MainWindow.g.cs
+c:\users\lenovo\documents\visual studio 2015\Projects\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\App.g.cs
+c:\users\lenovo\documents\visual studio 2015\Projects\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS_MarkupCompile.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS_MarkupCompile.lref
+c:\users\lenovo\documents\visual studio 2015\Projects\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\MainWindow.baml
+c:\users\lenovo\documents\visual studio 2015\Projects\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS.g.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2015\Projects\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS.csproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2015\Projects\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS.exe
+c:\users\lenovo\documents\visual studio 2015\Projects\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS.pdb
+G:\KinectPPT_byLSS\KinectPPT_byLSS\bin\Debug\KinectPPT_byLSS.exe.config
+G:\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS.exe
+G:\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS.pdb
+G:\KinectPPT_byLSS\KinectPPT_byLSS\bin\Debug\KinectPPT_byLSS.exe
+G:\KinectPPT_byLSS\KinectPPT_byLSS\bin\Debug\KinectPPT_byLSS.pdb
+G:\KinectPPT_byLSS\KinectPPT_byLSS\bin\Debug\Microsoft.Kinect.dll
+G:\KinectPPT_byLSS\KinectPPT_byLSS\bin\Debug\Microsoft.Kinect.xml
+G:\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS.csprojResolveAssemblyReference.cache
+G:\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\MainWindow.g.cs
+G:\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\App.g.cs
+G:\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS_MarkupCompile.cache
+G:\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS_MarkupCompile.lref
+G:\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\MainWindow.baml
+G:\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS.g.resources
+G:\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS.Properties.Resources.resources
+G:\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS.csproj.GenerateResource.Cache
+C:\Users\spj\Desktop\KinectPPT_byLSS\KinectPPT_byLSS\bin\Debug\KinectPPT_byLSS.exe.config
+C:\Users\spj\Desktop\KinectPPT_byLSS\KinectPPT_byLSS\bin\Debug\KinectPPT_byLSS.exe
+C:\Users\spj\Desktop\KinectPPT_byLSS\KinectPPT_byLSS\bin\Debug\KinectPPT_byLSS.pdb
+C:\Users\spj\Desktop\KinectPPT_byLSS\KinectPPT_byLSS\bin\Debug\Microsoft.Kinect.dll
+C:\Users\spj\Desktop\KinectPPT_byLSS\KinectPPT_byLSS\bin\Debug\Microsoft.Kinect.xml
+C:\Users\spj\Desktop\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS.csprojResolveAssemblyReference.cache
+C:\Users\spj\Desktop\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\MainWindow.g.cs
+C:\Users\spj\Desktop\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\App.g.cs
+C:\Users\spj\Desktop\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS_MarkupCompile.cache
+C:\Users\spj\Desktop\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS_MarkupCompile.lref
+C:\Users\spj\Desktop\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\MainWindow.baml
+C:\Users\spj\Desktop\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS.g.resources
+C:\Users\spj\Desktop\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS.Properties.Resources.resources
+C:\Users\spj\Desktop\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS.csproj.GenerateResource.Cache
+C:\Users\spj\Desktop\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS.csproj.CoreCompileInputs.cache
+C:\Users\spj\Desktop\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS.exe
+C:\Users\spj\Desktop\KinectPPT_byLSS\KinectPPT_byLSS\obj\Debug\KinectPPT_byLSS.pdb

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>音乐播放器</title>
+    <link href="CSS/music.css" rel="stylesheet" type="text/css" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+        html{
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+        body {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-self: center;
+            overflow: hidden;
+        }
+        .musicbox {
+            height: 560px;
+            width: 560px;
+            background: url("img/tune.png") no-repeat center;
+            position: absolute;
+        }
+        .musicPanel {
+            height: 550px;
+            width: 550px;
+            margin: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url("img/star-tail.png") no-repeat center, url("img/round.png") no-repeat center;
+            animation: rolling 5s infinite linear;
+        }
+        @keyframes rolling {
+            from {
+                transform: rotate(0deg);
+                transform-origin: 50% 50%;
+            }
+            to {
+                transform: rotate(360deg);
+                transform-origin: 50% 50%;
+            }
+        }
+        .paused{
+            animation-play-state: paused;
+        }
+        .musicDisc {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background: url("img/1363.jpg") center no-repeat;
+            background-size: cover;
+            opacity: 1.0;
+        }
+    </style>
+</head>
+<body background="img/bg.jpg">
+<div class="musicbox">
+    <div class="musicPanel">
+        <div class="musicDisc">
+        </div>
+    </div>
+    <div class="musicInfo">
+        <p class="song" id="songname">这是一首歌</p>
+        <p class="singer" id="songsuthor">歌手</p>
+    </div>
+    <div class="musicControl">
+        <img src="img/play.png" class="playBtn">
+    </div>
+    <div class="musicShare">
+        <div class="first"><img src="img/last.png"class="lastBtn" style="max-width: 50px;max-height: 50px"></div>
+       <div class="second"><img src="img/next.png" class="nextBtn"style="max-width: 50px;max-height: 50px"></div>
+    </div>
+    <audio id="musicBox"  autoplay loop>
+        <source src=""type="audio/mp3">
+    </audio>
+</div>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js">
+</script>
+<script>
+    $(function () {
+        function musicObj(url,name,author) {
+            var _this=this;
+            this.url=url;
+            this.author=author;
+            this.name=name;
+        }
+        var musicFile=[
+            new musicObj("musics/Aimer - LAST STARDUST.mp3","LAST STARDUST","Aimer"),
+            new musicObj("musics/KOKIA - EXEC.mp3","EXEC_COSMOFLIPS","KOKIA"),
+            new musicObj("musics/Los! Los! Los!.mp3","Los! Los! Los!","悠木碧"),
+            new musicObj("musics/V.A. - chAngE.mp3","chAngE","V.A."),
+            new musicObj("musics/YUI - Rolling star.mp3","Rolling star","YUI"),
+            new musicObj("musics/DAOKO - Cinderella step.mp3","Cinderella step","DAOKO"),
+            new musicObj("musics/DAOKO - 拝啓グッバイさようなら.mp3","拝啓グッバイさようなら","DAOKO"),
+            new musicObj("musics/STEREO DIVE FOUNDATION - Daisy.mp3","Daisy","STEREO DIVE FOUNDATION"),
+        ];
+        var length = musicFile.length;
+        var index=0;
+        $('.playBtn').click(function () {
+            var btnSrc = $(this).attr("src");
+            $('#musicBox').attr('src',musicFile[index].url);
+            $('#songname').text(musicFile[index].name);
+            $('#songsuthor').text(musicFile[index].author);
+            if (btnSrc == "img/pause.png") {
+                btnSrc = "img/play.png";
+                $('.playBtn').attr("src", btnSrc);
+                $('.musicPanel').addClass("paused");
+                $("#musicBox").get(0).pause();
+            } else if (btnSrc == "img/play.png") {
+                btnSrc = "img/pause.png";
+                $(this).attr("src", btnSrc);
+                $('.musicPanel').removeClass("paused");
+               $("#musicBox").get(0).play();
+            }
+
+        })
+        $('.lastBtn').click(function () {
+            var btnSrc=$('.playBtn').attr("src");
+            if(index == 0){
+                index = length-1;
+            }else{
+                index --;
+            }
+            $('#songname').text(musicFile[index].name);
+            $('#songsuthor').text(musicFile[index].author);
+           $("#musicBox").attr("src",musicFile[index].url);
+            if(btnSrc=="img/play.png")
+                btnSrc="img/pause.png";
+                $('.playBtn').attr("src",btnSrc);
+            $("#musicBox").get(0).play();
+        })
+        $('.nextBtn').click(function () {
+            var btnSrc=$('.playBtn').attr("src");
+            index ++;
+            if(index>=length){
+                index = 0;
+            }
+            $('#songname').text(musicFile[index].name);
+            $('#songsuthor').text(musicFile[index].author);
+            $("#musicBox").attr("src", musicFile[index].url);
+            if(btnSrc=="img/play.png")
+                btnSrc="img/pause.png";
+            $('.playBtn').attr("src",btnSrc);
+            $("#musicBox").get(0).play();
+        })
+    })
+</script>
+</body>
+</html>

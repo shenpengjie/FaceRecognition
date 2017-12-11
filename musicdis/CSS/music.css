@@ -1,0 +1,47 @@
+.musicInfo {
+    width: 200px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-left: -100px;
+}
+.musicInfo p {
+    text-align: center;
+}
+.musicInfo .song {
+    color: #34f8f9;
+    font-size: 18px;
+}
+.musicInfo .singer {
+    color: white;
+}
+.musicControl img {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -20px;
+    transition: width 1s, height 1s, transform 1s;
+}
+.musicControl img:hover{
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -20px;
+}
+.musicShare {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    margin-left: -45px;
+}
+.first,.second{
+    display: inline-block;
+    margin: 15px;
+}

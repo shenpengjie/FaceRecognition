@@ -1,0 +1,17 @@
+C:\Users\spj\source\repos\KinectColorViewer\KinectColorViewer\obj\Debug\KinectColorViewer.csprojResolveAssemblyReference.cache
+C:\Users\spj\source\repos\KinectColorViewer\KinectColorViewer\obj\Debug\MainWindow.g.cs
+C:\Users\spj\source\repos\KinectColorViewer\KinectColorViewer\obj\Debug\App.g.cs
+C:\Users\spj\source\repos\KinectColorViewer\KinectColorViewer\obj\Debug\KinectColorViewer_MarkupCompile.cache
+C:\Users\spj\source\repos\KinectColorViewer\KinectColorViewer\obj\Debug\KinectColorViewer_MarkupCompile.lref
+C:\Users\spj\source\repos\KinectColorViewer\KinectColorViewer\bin\Debug\KinectColorViewer.exe.config
+C:\Users\spj\source\repos\KinectColorViewer\KinectColorViewer\bin\Debug\KinectColorViewer.exe
+C:\Users\spj\source\repos\KinectColorViewer\KinectColorViewer\bin\Debug\KinectColorViewer.pdb
+C:\Users\spj\source\repos\KinectColorViewer\KinectColorViewer\bin\Debug\Microsoft.Kinect.dll
+C:\Users\spj\source\repos\KinectColorViewer\KinectColorViewer\bin\Debug\Microsoft.Kinect.xml
+C:\Users\spj\source\repos\KinectColorViewer\KinectColorViewer\obj\Debug\MainWindow.baml
+C:\Users\spj\source\repos\KinectColorViewer\KinectColorViewer\obj\Debug\KinectColorViewer.g.resources
+C:\Users\spj\source\repos\KinectColorViewer\KinectColorViewer\obj\Debug\KinectColorViewer.Properties.Resources.resources
+C:\Users\spj\source\repos\KinectColorViewer\KinectColorViewer\obj\Debug\KinectColorViewer.csproj.GenerateResource.Cache
+C:\Users\spj\source\repos\KinectColorViewer\KinectColorViewer\obj\Debug\KinectColorViewer.csproj.CoreCompileInputs.cache
+C:\Users\spj\source\repos\KinectColorViewer\KinectColorViewer\obj\Debug\KinectColorViewer.exe
+C:\Users\spj\source\repos\KinectColorViewer\KinectColorViewer\obj\Debug\KinectColorViewer.pdb

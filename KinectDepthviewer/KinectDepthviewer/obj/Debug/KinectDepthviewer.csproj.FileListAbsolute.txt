@@ -1,0 +1,17 @@
+C:\Users\spj\source\repos\KinectDepthviewer\KinectDepthviewer\obj\Debug\KinectDepthviewer.csprojResolveAssemblyReference.cache
+C:\Users\spj\source\repos\KinectDepthviewer\KinectDepthviewer\obj\Debug\MainWindow.g.cs
+C:\Users\spj\source\repos\KinectDepthviewer\KinectDepthviewer\obj\Debug\App.g.cs
+C:\Users\spj\source\repos\KinectDepthviewer\KinectDepthviewer\obj\Debug\KinectDepthviewer_MarkupCompile.cache
+C:\Users\spj\source\repos\KinectDepthviewer\KinectDepthviewer\obj\Debug\KinectDepthviewer_MarkupCompile.lref
+C:\Users\spj\source\repos\KinectDepthviewer\KinectDepthviewer\bin\Debug\KinectDepthviewer.exe.config
+C:\Users\spj\source\repos\KinectDepthviewer\KinectDepthviewer\bin\Debug\KinectDepthviewer.exe
+C:\Users\spj\source\repos\KinectDepthviewer\KinectDepthviewer\bin\Debug\KinectDepthviewer.pdb
+C:\Users\spj\source\repos\KinectDepthviewer\KinectDepthviewer\bin\Debug\Microsoft.Kinect.dll
+C:\Users\spj\source\repos\KinectDepthviewer\KinectDepthviewer\bin\Debug\Microsoft.Kinect.xml
+C:\Users\spj\source\repos\KinectDepthviewer\KinectDepthviewer\obj\Debug\MainWindow.baml
+C:\Users\spj\source\repos\KinectDepthviewer\KinectDepthviewer\obj\Debug\KinectDepthviewer.g.resources
+C:\Users\spj\source\repos\KinectDepthviewer\KinectDepthviewer\obj\Debug\KinectDepthviewer.Properties.Resources.resources
+C:\Users\spj\source\repos\KinectDepthviewer\KinectDepthviewer\obj\Debug\KinectDepthviewer.csproj.GenerateResource.Cache
+C:\Users\spj\source\repos\KinectDepthviewer\KinectDepthviewer\obj\Debug\KinectDepthviewer.csproj.CoreCompileInputs.cache
+C:\Users\spj\source\repos\KinectDepthviewer\KinectDepthviewer\obj\Debug\KinectDepthviewer.exe
+C:\Users\spj\source\repos\KinectDepthviewer\KinectDepthviewer\obj\Debug\KinectDepthviewer.pdb

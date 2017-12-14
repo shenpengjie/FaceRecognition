@@ -1,0 +1,17 @@
+c:\users\spj\source\repos\KinecJoint\KinecJoint\bin\Debug\KinecJoint.exe.config
+c:\users\spj\source\repos\KinecJoint\KinecJoint\bin\Debug\KinecJoint.exe
+c:\users\spj\source\repos\KinecJoint\KinecJoint\bin\Debug\KinecJoint.pdb
+c:\users\spj\source\repos\KinecJoint\KinecJoint\bin\Debug\Microsoft.Kinect.dll
+c:\users\spj\source\repos\KinecJoint\KinecJoint\bin\Debug\Microsoft.Kinect.xml
+c:\users\spj\source\repos\KinecJoint\KinecJoint\obj\Debug\KinecJoint.csprojResolveAssemblyReference.cache
+c:\users\spj\source\repos\KinecJoint\KinecJoint\obj\Debug\MainWindow.g.cs
+c:\users\spj\source\repos\KinecJoint\KinecJoint\obj\Debug\App.g.cs
+c:\users\spj\source\repos\KinecJoint\KinecJoint\obj\Debug\KinecJoint_MarkupCompile.cache
+c:\users\spj\source\repos\KinecJoint\KinecJoint\obj\Debug\KinecJoint_MarkupCompile.lref
+c:\users\spj\source\repos\KinecJoint\KinecJoint\obj\Debug\MainWindow.baml
+c:\users\spj\source\repos\KinecJoint\KinecJoint\obj\Debug\KinecJoint.g.resources
+c:\users\spj\source\repos\KinecJoint\KinecJoint\obj\Debug\KinecJoint.Properties.Resources.resources
+c:\users\spj\source\repos\KinecJoint\KinecJoint\obj\Debug\KinecJoint.csproj.GenerateResource.Cache
+c:\users\spj\source\repos\KinecJoint\KinecJoint\obj\Debug\KinecJoint.csproj.CoreCompileInputs.cache
+c:\users\spj\source\repos\KinecJoint\KinecJoint\obj\Debug\KinecJoint.exe
+c:\users\spj\source\repos\KinecJoint\KinecJoint\obj\Debug\KinecJoint.pdb

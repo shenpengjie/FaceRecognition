@@ -44,8 +44,7 @@ namespace KinectColorViewer
                 {
                     this.colorBitmap.Lock(); 
                     frame.CopyConvertedFrameDataToIntPtr(this.colorBitmap.BackBuffer, (uint)(this.colorFrameDescription.Width * this.colorFrameDescription.Height * 4), ColorImageFormat.Bgra);
-                    this.colorBitmap.AddDirtyRect(new Int32Rect(0, 0, this.colorBitmap.PixelWidth, this.colorBitmap.PixelHeight));
-                   
+                    this.colorBitmap.AddDirtyRect(new Int32Rect(0, 0, this.colorBitmap.PixelWidth, this.colorBitmap.PixelHeight));                   
                     this.colorBitmap.Unlock(); 
                 }
             }
@@ -55,6 +54,17 @@ namespace KinectColorViewer
             get
             {
                 return this.colorBitmap;
+            }
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            if(colorFrame!=null)
+            {
+                colorFrame.Dispose();
+                colorFrame = null;
+                kinect.Close();
+                kinect = null;
             }
         }
     }

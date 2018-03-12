@@ -1,4 +1,5 @@
-#include <iostream>  
+#include <iostream> 
+#include<string>
 #include <opencv2/opencv.hpp>
 #include<opencv2/highgui.hpp>
 #include<opencv2/core/core.hpp>
@@ -6,22 +7,45 @@
 
 using namespace std;
 using namespace cv;
-
+string change(int n)
+{
+	string res ;
+	while (n>0)
+	{
+		res += n % 10 + 48;
+		n /= 10;
+	}
+	string res2;
+	for (int i = res.size()-1; i >=0; i--)
+	{
+		res2 += res[i];
+	}
+	return res2;
+}
 int main()
 {
-	Mat src = imread("Path");//  ‰»Î¬∑æ∂
-	Mat img = Mat::zeros(src.size(), CV_8UC1);
-	cvtColor(src, src, CV_RGB2GRAY);
-	threshold(src, src, 160, 250, THRESH_BINARY);
-	vector<vector<Point>>contours;
-	//vector<Vec4i> hierrarchy;
-	findContours(src, contours, 1, CHAIN_APPROX_SIMPLE);
-	Mat result = Mat::zeros(src.size(), CV_8UC1);
-	if (!contours.empty())
+	string str;
+	VideoCapture cap(0);
+	if (!cap.isOpened())
 	{
-		drawContours(result, contours, -1, Scalar(255), 2);
-		imshow("spj", result);
-		waitKey(0);
+		return -1;
 	}
+	Mat frame;
+	String m = "E:\\";
 	
+	for (int i = 0; i < 1000; i++)
+	{
+		cap >> frame;
+		imshow("soj", frame);
+		char key = waitKey(30);
+		if (key == 27)
+		{
+			break;
+		}
+		str=change(i);
+		string path = m + str + ".jpg";
+		imwrite(path, frame);
+
+	}
+
 }
